@@ -1,0 +1,27 @@
+.nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.nav h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+.nav button {
+  font-size: 0.8em;
+  width: fit-content;
+  height: 30px;
+  margin: 0;
+  color: #fff;
+  background: #963ac1;
+  border: none;
+  border-radius: 4px;
+  padding:  8px;
+  cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.Stats {
+  display: flex;
+  gap: 1em;
+  width: 90%;
+  margin: auto;
+}
+.Stat {
+  position: relative;
+  padding: 10px;
+  height: fit-content;
+  width: 70%;
+  margin: 10px auto;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.Stat h3 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+  position: sticky;
+  z-index: 1000;
+}
+
+.Stat h5 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 0.6em;
+  position: sticky;
+  z-index: 1000;
+}
+
+.incomes {
+  background-color: #219ebc80;
+}
+.expenses {
+  background-color: #ffc7af7b;
+}
+.total {
+  background-color: #02304771;
+}
+
+.Stat .counter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.counter_incomes {
+  width: 100%;
+  background-color: #219dbc;
+}
+.counter_expenses {
+  width: 0%;
+  background-color: #ffc7af;
+}
+.counter_total {
+  width: 100%;
+  background-color: #023047;
+}
