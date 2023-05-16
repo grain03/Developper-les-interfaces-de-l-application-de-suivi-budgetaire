@@ -10,10 +10,11 @@ function Form({
   setexpenses,
   incomes,
   expenses,
+  setnewcat,
+  categories,
 }) {
   const today = new Date();
   let newcat;
-  const [categories, setnewcat] = useState([]);
   console.log(categories);
 
   const [errmessage, setmessage] = useState("");
@@ -21,8 +22,9 @@ function Form({
   const [name, setname] = useState("");
   const [amount, setamount] = useState(0);
   const [type, settype] = useState("");
-  const [category, setcategory] = useState("");
   const [desc, setdesc] = useState("");
+  const [category, setcategory] = useState("");
+
   const [date, setdate] = useState(
     today.getDate() + "/" + (today.getMonth() + 1) + "/" + today.getFullYear()
   );
