@@ -1,0 +1,57 @@
+.history {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.history .title {
+  width: 100%;
+  font-size: 1.5em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.history_header,
+.histories {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 15px;
+  align-items: center;
+  color: #fff;
+  background: #0e487489;
+}
+.history_header h1 {
+  width: 15%;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.history_header p {
+  width: 25%;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.histories h1 {
+  width: 15%;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+.histories p {
+  width: 25%;
+  text-align: left;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+.histories .income {
+  background: #219dbc76 !important;
+}
+
+.histories .expense {
+  background: #d095836a !important;
+}
